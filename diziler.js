@@ -18,7 +18,7 @@ alert(manav[3]); // lahana
 
 alert(manav[0]); // elma
 
-//  Elamanı değiştirmek mümkündür:
+//  Elemanı değiştirmek mümkündür:
 
 manav[2] = `karnabahar`; // [`elma` , `portakal` ,`karnabahar` `lahana` , `domates`]
 
@@ -238,7 +238,7 @@ metin8.reverse();
 
 console.log(metin8); // ["albay","arjin","ben","selam"]
 
-//Dizideki öğeleri sıralama =>  dizi öğelerini artan sırada düzenleyin.
+//Dizideki öğeleri sıralama  sort =>  dizi öğelerini artan sırada düzenleyin.
 
 let webTechs1 = [
   "React",
