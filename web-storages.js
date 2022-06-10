@@ -64,6 +64,14 @@ let skillss = localStorage.getItem(`skills`);
 
 console.log(age, skills);
 
+// localStorage'dan saklanan öğeyi kaldır
+
+localStorage.removeItem(`age`); // {}
+
 // localStorage'ı temizleme
 
 localStorage.clear();
+
+// localStorage'da depolanan verileri görüntülemek için.
+
+localStorage.key(`age`);
