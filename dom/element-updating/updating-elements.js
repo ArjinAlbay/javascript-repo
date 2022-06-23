@@ -19,26 +19,25 @@ for (let item of gorevListesi) {
   ul.insertAdjacentHTML("beforeend", li);
 }
 
-// document.querySelector("#task-list").parentElement.remove();
+// document.querySelector(`#task-list`).children[2].remove();
 
-// document.querySelector("#task-list").children[2].remove();
+// document.querySelector(`#task-list`).removeAttribute(`class`);
 
-// document.querySelector("#task-list").children[1].remove();
+// let sonuc;
 
-// document.querySelector("#task-list").removeAttribute("class");
+// sonuc = document.querySelector(`#task-list`).children[1].getAttribute(`class`);
 
-let sonuc;
-
-// let sonuc = document.querySelector("#task-list").children[2].getAttribute("class");
-
-// document.querySelector("#task-list").children[0].setAttribute("class", "selam");
+// document.querySelector(`#task-list`).setAttribute(`class`, `aaa`);
 
 // sonuc = document.querySelector("#task-list").children[0].classList;
 
-// sonuc = document.querySelector("#task-list").children[0].classList[1];
+// ul = document.querySelector("#task-list").classList[1];
 
-// document.querySelector("#task-list").children[0].classList.add("bg-danger");
+document.querySelector("#task-list").children[2].classList.add(`bg-info`);
+document.querySelector("#task-list").children[1].classList.add(`bg-danger`);
 
-// sonuc = document.querySelector("#task-list").children[0].classList.contains("task");
+sonuc = document
+  .querySelector("#task-list")
+  .children[0].classList.contains("task"); // task clasının içinde olup olmadığını kontrol eder.
 
 console.log(sonuc);
